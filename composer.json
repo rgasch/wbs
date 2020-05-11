@@ -1,7 +1,12 @@
 {
     "autoload": {
         "psr-4": {
-            "wbs\\": ""
+            "wbs\\solution\\": "solution/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "wbs\\tests\\": "tests/"
         }
     },
     "require": {
