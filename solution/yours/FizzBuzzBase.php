@@ -10,7 +10,7 @@ abstract class FizzBuzzBase
     public function generateOutput (array $lines) : string
     {
         $eol = PHP_EOL;
-        return implode ("<br />", $lines);
+        return implode ("<br />$eol", $lines) . "<br />$eol";
     }
 }
 
